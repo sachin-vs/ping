@@ -46,7 +46,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     Using swarm.listen
 
     */
-    swarm.listen_on("/ip4/0.0.0.0/tcp/0".parse()?)?;
+    swarm.listen_on("/ip4/0.0.0.0/tcp/16384".parse()?)?;
 
     // Check second line argument in the command
 
